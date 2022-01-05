@@ -2,7 +2,7 @@ def computepay(hours, rate) :
     
     if hours > 40 :
        regular = hours * rate
-       overtimerate = (hours - 40.0) * (rate * 1.5 )
+       overtimerate = (hours - 40.0) * (rate * 0.5 )
        check = regular + overtimerate
     else: 
         check = hours * rate
