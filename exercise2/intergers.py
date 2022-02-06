@@ -8,3 +8,11 @@ print(-5)
 
 # or a integer could be zero
 print(0)
+
+# arithmetic operators
+# addition +
+# subtraction -
+# multiplcation * 
+# division /
+# exponents **
+
