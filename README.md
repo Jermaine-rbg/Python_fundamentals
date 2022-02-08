@@ -7,3 +7,4 @@ I will use this repo to practice Python
 3. multiple print statements
 4. comment, mulitple comments, comment toggling keyboard shortcut 
 5. integers, integers arithmetic operators
+6. variables
