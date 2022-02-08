@@ -26,3 +26,7 @@
 positive_number = 10
 negative_number = -5
 print(positive_number + negative_number)
+
+print(float(55)) # 55.0
+print(int(3.876))
+print(round(3.875, 1))
