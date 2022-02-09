@@ -9,12 +9,12 @@
 
 # strings
 
-address = 'atlanta ave'
+address = 'Atlanta ave'
 
 # element of a string inside qoutation marks 
 # sinlge or double qoutes 
 
-print('atlanta ave')
+print('Atlanta ave')
 # direct print statement
 
 print(address)
@@ -27,4 +27,8 @@ state = 'Ga'
 
 print(address, zipcode, city, state)
 
-print(f'{address} +')
+print('My address is', address)
+
+print(f'My address is {address}')
+
+print(f'My address is {address}, {city}, {state}, {zipcode}')
