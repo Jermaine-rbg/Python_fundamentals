@@ -21,7 +21,8 @@ print(street_address)
 
 # string concatenation
 
-zipcode = 30313
+zipcode = 30313 # integer
+zipcode = '30313' # string
 city = 'Atlanta'
 state = 'Ga'
 
@@ -41,4 +42,12 @@ print(f'My address is {street_address}, {city}, {state}, {zipcode}.')
 # replace is a method and all methods have () like print 
 city = 'Birmingham'
 print(state.replace('Ga', 'Al'))
+print(street_address.replace('Atlanta ave', 'Alabama'))
+print(zipcode.replace('30313', '35211'))
+
+# Boolean - True or Fasle
+
+print(f'My address is {street_address}, {city}, {state}, {zipcode}.')
+print(street_address.endswith('90210'))
+print(street_address.startswith('Atlanta'))
 
