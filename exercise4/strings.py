@@ -31,4 +31,5 @@ print('My address is', address)
 
 print(f'My address is {address}')
 
-print(f'My address is {address}, {city}, {state}, {zipcode}')
+# the F string is way more powerful
+print(f'My address is {address}, {city}, {state}, {zipcode}.')
