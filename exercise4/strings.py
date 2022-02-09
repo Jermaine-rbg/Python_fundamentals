@@ -9,7 +9,7 @@
 
 # strings
 
-address = 'Atlanta ave'
+street_address = 'Atlanta ave'
 
 # element of a string inside qoutation marks 
 # sinlge or double qoutes 
@@ -17,7 +17,7 @@ address = 'Atlanta ave'
 print('Atlanta ave')
 # direct print statement
 
-print(address)
+print(street_address)
 
 # string concatenation
 
@@ -25,11 +25,20 @@ zipcode = 30313
 city = 'Atlanta'
 state = 'Ga'
 
-print(address, zipcode, city, state)
+print(street_address, zipcode, city, state)
 
-print('My address is', address)
+print('My address is', street_address)
 
-print(f'My address is {address}')
+print(f'My address is {street_address}')
+
+# shows data type 
+print(type(zipcode))
 
 # the F string is way more powerful
-print(f'My address is {address}, {city}, {state}, {zipcode}.')
+print(f'My address is {street_address}, {city}, {state}, {zipcode}.')
+
+# reassigning variables
+# replace is a method and all methods have () like print 
+city = 'Birmingham'
+print(state.replace('Ga', 'Al'))
+
