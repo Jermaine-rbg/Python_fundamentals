@@ -31,7 +31,7 @@ print('My address is', street_address)
 
 print(f'My address is {street_address}')
 
-# shows data type 
+# shows data type() 
 print(type(zipcode))
 
 # the F string is way more powerful
