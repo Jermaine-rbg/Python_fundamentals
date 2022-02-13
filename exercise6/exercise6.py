@@ -1,11 +1,18 @@
-developer = 10
-print("Software Developer")
+# introduction to list 
 
-def print_lyrics():
-    print("You have to put in 10 times the hardwork")
-    print("To become a successful")
+from xmlrpc.client import boolean
 
-print('Yes')
-print_lyrics()
-developer = developer + 1
-print(developer)
+
+grocery_list = ["apples", "pasta", "milk"]
+print(grocery_list)
+
+integer_list = [60, 93, 723]
+float_list = [60.0, 93.5, 72.3]
+boolean_list = [True, False]
+
+mixed_list = [60, 723, 'rollin six owe']
+
+print(integer_list)
+print(float_list)
+print(boolean_list)
+print(mixed_list)
