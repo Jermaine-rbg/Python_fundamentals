@@ -1,7 +1,5 @@
 # introduction to list 
 
-from xmlrpc.client import boolean
-
 
 grocery_list = ["apples", "pasta", "milk"]
 print(grocery_list)
