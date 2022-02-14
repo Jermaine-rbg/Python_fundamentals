@@ -36,6 +36,13 @@ print(integer_list)
 length = len(integer_list)
 print(length)
 
+# adding element to list
 integer_list.append(7)
+print(len(integer_list))
+print(integer_list)
+
+
+# remove element from list
+integer_list.remove(5)
 print(len(integer_list))
 print(integer_list)
