@@ -1,6 +1,6 @@
 # introduction to list 
 
-
+ 
 # grocery_list = ["apples", "pasta", "milk"]
 # print(grocery_list)
 
@@ -21,3 +21,21 @@ item_three = 'milk'
 
 grocery_list_two = [item_one, item_two, item_three]
 print(grocery_list_two)
+
+# creating a list with no elements
+
+empty_list = []
+print(empty_list)
+print(type(empty_list))
+
+# integer list modification 3
+
+integer_list = [1,2,3,4,5,6]
+print(integer_list)
+
+length = len(integer_list)
+print(length)
+
+integer_list.append(7)
+print(len(integer_list))
+print(integer_list)
