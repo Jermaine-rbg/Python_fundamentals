@@ -46,3 +46,13 @@ print(integer_list)
 integer_list.remove(5)
 print(len(integer_list))
 print(integer_list)
+
+# list indexing
+
+musicians = ['tupac', 'biggie', 'drake', 'wayne']
+ #               -4         -3        -2        -1
+
+print(musicians[-2])
+
+musicians[2] = "kanye west"
+print(musicians[-4])
