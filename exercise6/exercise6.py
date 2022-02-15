@@ -56,3 +56,9 @@ print(musicians[-2])
 
 musicians[2] = "kanye west"
 print(musicians[-4])
+
+# list element vs list index
+# list element is an item within a list
+# each list element has a location identerfier within that list - list index
+# the first element of list is index 0
+
