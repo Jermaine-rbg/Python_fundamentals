@@ -70,4 +70,4 @@ print(len(num_list))
 
 print(num_list[2:4])
 
-
+# okay so split will return a list and join will return a string
