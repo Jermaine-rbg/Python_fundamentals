@@ -4,7 +4,15 @@
 # With the break statement we can stop the loop even if the while condition is true:
 
 
-print('welecome to loops')
+# print('welecome to loops')
+
+laundry_basket = ['jeans', 'sweater', 'tank top', 'dress shirt']
+
+
+
+# for each garment in our laundry basket 
+# fold the garment
+# put away the garment
 
 # for loops for each item in a group of items 
 # do something to that item
