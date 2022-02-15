@@ -1,18 +1,16 @@
-num = 0
-tot = 0.0
-while True :
-    sval = input('Enter a number: ')
-    if sval == 'done' :
-        break
-    try:
-        fval = float(sval)
-    except:
-        print('Invaild input')
-    
-    #print(fval)
-    num = num + 1
-    tot = tot + fval
+# Python has two primitive loop commands:
+# while loops and for loops 
+# With the while loop we can execute a set of statements as long as a condition is true.
+# With the break statement we can stop the loop even if the while condition is true:
 
-#print('All done')
-print(tot,num,tot/num)
 
+print('welecome to loops')
+
+# for loops for each item in a group of items 
+# do something to that item
+
+# for loops with the range function 
+# for each time in a number of times
+# do something 
+
+# while loop
