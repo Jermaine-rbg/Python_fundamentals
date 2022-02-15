@@ -62,3 +62,12 @@ print(musicians[-4])
 # each list element has a location identerfier within that list - list index
 # the first element of list is index 0
 
+
+# slicing 
+
+num_list = [1,5,6,9,2]
+print(len(num_list))
+
+print(num_list[2:4])
+
+
