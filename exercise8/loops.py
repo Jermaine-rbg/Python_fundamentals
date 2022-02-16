@@ -40,9 +40,6 @@ for index in range(4):
     print(index)
 
 
- 
-
-
 # while loop
 # while a condition is true
 #    keep going
