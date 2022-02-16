@@ -36,10 +36,28 @@ laundry_basket = ['jeans', 'sweater', 'tank top', 'dress shirt']
 
 # print(list(range(4)))
 
-for index in range(4):
-    print(index)
+#for index in range(4):
+#    print(index)
 
 
+
+# correct_password = '1234'
+
+# for i in range(3):
+#     user_password = input ('enter your password:')
+
+#     if user_password == correct_password:
+#         print('welcome')
+#         break
 # while loop
 # while a condition is true
 #    keep going
+
+
+correct_password = '1234'
+user_password = ''
+
+while user_password != correct_password:
+    user_password = input('enter your password')
+
+print('welcome')
