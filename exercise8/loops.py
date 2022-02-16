@@ -15,12 +15,14 @@ laundry_basket = ['jeans', 'sweater', 'tank top', 'dress shirt']
 #    put away the garment
 # clean clothes
 
-for garment in laundry_basket:
-    print(f'fold the garment {garment}')
-    print(f'put away the garment {garment}' )
-    print()
+# for garment in laundry_basket:
+#     if garment == 'jeans':
+#         print(f'check if the {garment} are dry')
+#     print(f'fold the garment {garment}')
+#     print(f'put away the garment {garment}' )
+#     print()
 
-print('clean clothes')
+# print('clean clothes')
 
 
 
@@ -32,4 +34,15 @@ print('clean clothes')
 # for each time in a number of times
 # do something 
 
+# print(list(range(4)))
+
+for index in range(4):
+    print(index)
+
+
+ 
+
+
 # while loop
+# while a condition is true
+#    keep going
