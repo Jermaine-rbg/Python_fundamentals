@@ -7,12 +7,23 @@
 # print('welecome to loops')
 
 laundry_basket = ['jeans', 'sweater', 'tank top', 'dress shirt']
-
+#      garment =
 
 
 # for each garment in our laundry basket 
-# fold the garment
-# put away the garment
+#    fold the garment
+#    put away the garment
+# clean clothes
+
+for garment in laundry_basket:
+    print(f'fold the garment {garment}')
+    print(f'put away the garment {garment}' )
+    print()
+
+print('clean clothes')
+
+
+
 
 # for loops for each item in a group of items 
 # do something to that item
