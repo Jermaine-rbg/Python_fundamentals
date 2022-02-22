@@ -1,11 +1,18 @@
+from unicodedata import name
+
+
 days_per_week = 7
 
 # variable : data
 # function : code
 
-def say_hello(): 
+
+# name is called parameter
+def say_hello(name): 
     print('hello')
-    print('My name is Jermaine')
+    print(f'My name is {name}')
     print('Have a good day')
 
-say_hello()
+say_hello('Jermaine')
+say_hello('Tony')
+say_hello('Jaxen')
