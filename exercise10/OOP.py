@@ -31,5 +31,6 @@ class Person():
 # greeting is a method that takes in no parameter
 # and returns a string
     def greeting(self):
-        return f"Hi I\'m {self.name}"
+        #return f"Hi I\'m {self.name}"
+        print(Jermaine.crip)
 
