@@ -18,3 +18,18 @@ Jermaine = Person(name="Jermaine", age="44")
 print(Jermaine.name)
 print(Jermaine.age)
 print(Jermaine.crip)
+
+# what are methods 
+
+class Person():
+    def __init__(self,name, age):
+        self.name = name
+        #self.variable_name is a attribute
+        self.age = age
+        self.crip = 60
+
+# greeting is a method that takes in no parameter
+# and returns a string
+    def greeting(self):
+        return f"Hi I\'m {self.name}"
+
