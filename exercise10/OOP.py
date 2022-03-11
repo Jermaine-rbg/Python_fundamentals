@@ -11,6 +11,10 @@ class Person():
     def __init__(self,name, age):
         self.name = name
         self.age = age
+        self.crip = 60
         
 
 Jermaine = Person(name="Jermaine", age="44")
+print(Jermaine.name)
+print(Jermaine.age)
+print(Jermaine.crip)
